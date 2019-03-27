@@ -32,8 +32,20 @@
       Returns the previous expression from the list of expressions in the textStr parameter
 
 */
+window.onload = init;
 
+function init() {
+      var calcButtons = document.getElementsByClassName("calcButton");
+      for (var i = 0; i < calcButtons; i++) {
+            calcButtons[i].onclick = buttonClick;
+      }
+      calcKeys[i].addEventListener("keydown") = document.getElementById("calcWindow").addEventListener("keydown", calcKeys);
+}
 
+function buttonClick(e) {
+      var calcValue = document.getElementById("");
+
+}
 
 
 
